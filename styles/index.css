@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* using the @apply helper here to compose our own classes using Tailwind. */
+  @apply bg-blue-500 p-2;
+}
