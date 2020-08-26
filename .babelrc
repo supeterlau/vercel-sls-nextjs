@@ -4,6 +4,8 @@
     "@emotion/babel-preset-css-prop"
   ],
   "plugins": [
-    "babel-plugin-macros"
+    "babel-plugin-macros",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
   ]
 }

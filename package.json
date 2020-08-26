@@ -8,10 +8,17 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@vercel/node": "^1.7.4",
+    "mobx": "^5.15.6",
+    "mobx-react-lite": "^2.1.0",
+    "mobx-state-tree": "^3.17.2",
     "next": "latest",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "twin.macro": "^1.6.0"
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
